@@ -1,0 +1,8 @@
+def calculate_planet_square(radius):
+    square = radius ** 2
+    return square
+
+# Assuming the radius of the planet is 10 units
+planet_radius = 10
+planet_square = calculate_planet_square(planet_radius)
+print("The square of the planet is:", planet_square)
